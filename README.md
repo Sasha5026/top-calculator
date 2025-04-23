@@ -1,1 +1,1 @@
-This project is about creatin an on-screen calculator using JavaScript, HTML and CSS.
+This project is about creating an on-screen calculator using JavaScript, HTML and CSS.
