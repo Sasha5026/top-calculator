@@ -17,7 +17,7 @@ body {
 }
 
 #display {
-    margin: 5px;
+    margin: 10px;
     background-color: rgb(255, 255, 255);
     text-align: right;
     border-radius: 5px;
@@ -43,9 +43,23 @@ button {
 }
 
 button.clear {
-    color: red;
+    background-color: red;
+    color: white;
 }
 
 button.operator {
     background-color: rgb(196, 190, 190);
 }
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+  
+.shake {
+    animation: shake 0.3s;
+}
+  
