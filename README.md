@@ -1,1 +1,1 @@
-# top-calculator
+This project is about creatin an on-screen calculator using JavaScript, HTML and CSS.
